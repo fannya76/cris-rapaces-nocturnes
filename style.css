@@ -6,7 +6,9 @@
 
 body {
     font-family: system-ui;
-    background-color: #131b48;
+    /* background-color: #131b48; */
+    background-image: url(Ciel_etoile.jpg);
+    background-size: contain;
 }
 
 main {
@@ -22,13 +24,11 @@ h1 {
     font-size: 1.5rem;
     
     padding: 10px 15px;
-    margin-block: 10px;
+    margin-block: 20px;
     
     text-align: center;
-    background-color: #fff;
-
-    /* padding-block: 10px; */
-    /* margin-inline: auto; */
+    /* background-color: #fff; */
+    color:beige;
 
 }
 
@@ -46,7 +46,6 @@ h1 {
     display: flex;
 
     margin-bottom: 10px;
-    /* margin-inline: auto; */
 }
 
 .hide-right {
