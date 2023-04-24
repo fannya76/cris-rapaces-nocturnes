@@ -6,26 +6,31 @@
 
 body {
     font-family: system-ui;
+
+    padding-inline: 10px;
+
     /* background-color: #131b48; */
     background-image: url(Ciel_etoile.jpg);
     background-size: contain;
 }
 
-main {
-    padding-inline: 10px;
+main, .flex-col-center {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
 }
+/* main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
 
 h1 {
     max-width: 768px;
     font-size: 1.5rem;
     
+    margin: 20px auto;    
     padding: 10px 15px;
-    margin-block: 20px;
-    
     text-align: center;
     /* background-color: #fff; */
     color:beige;
@@ -77,3 +82,22 @@ p {
 .nord {
     background-color: #7275de;
 }
+
+@media screen and (width > 768px) {
+    main {
+        flex-direction: row;
+        flex-wrap: wrap;
+
+        justify-content: center;
+        align-items: flex-start;
+        gap: 40px;
+
+        max-width: 960px;
+        margin: auto;
+    }
+
+    h1 {
+        margin-bottom: 40px;
+    }
+
+} 
