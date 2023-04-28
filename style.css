@@ -40,7 +40,7 @@ h2 {
 }
 
 h2 span {
-    display: block;
+/*     display: block; */
     color: #ffa907;
     text-transform: uppercase;
 }
