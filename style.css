@@ -35,9 +35,8 @@ h1, h2 {
     color:beige;
 }
 
-h2 {
-    font-family: sans-serif;
-    font-size: 15px;
+h2 {    
+    font-size: 0.8rem;
 }
 
 h2 span {
