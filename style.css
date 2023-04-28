@@ -28,7 +28,7 @@ h1, h2 {
     max-width: 768px;
     font-size: 1.5rem;
     
-    padding: 10px 15px;
+    padding: 10px 0px;
     text-align: center;
     /* background-color: #fff; */
     color:beige;
@@ -40,12 +40,12 @@ h2 {
 
 h2 span {
     display: block;
-    color: #e9544a;
+    color: #ffa907;
     text-transform: uppercase;
 }
 
 h2 a {
-    color:#e9544a;
+    color:#ffa907;
 }
 
 /* h2 span {
